@@ -26,9 +26,9 @@ The project starts with a Form where the user can search for a book title, after
 ## Installation
 
 To run the project locally you need to do the following:
-* Clone the project first in your CMD by running the command, git clone https://github.com/Zien-Alhawshi/soloproject-tier2-bookfinder.git
-* Open the code in your preferred editor and in the main directory you need to install the required tools by running the command, npm install 
-* When the installing process is completed, you can test the app by running npm run dev and it will open up in your default browser.
+* Clone the project first in your CMD by running the command, "git clone https://github.com/Zien-Alhawshi/soloproject-tier2-bookfinder.git"
+* Open the code in your preferred editor and in the main directory you need to install the required tools by running the command, "npm install" 
+* When the installing process is completed, you can test the app by running "npm run dev" and it will open up in your default browser.
 
 You can try the app [here](https://book-finder-solo.netlify.app/)
 
