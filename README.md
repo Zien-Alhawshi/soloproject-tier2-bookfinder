@@ -21,7 +21,7 @@ I built the project using React by creating three main components:
 * Book Component
 * Spinner Component 
 
-The project starts with a Form where the user can search for a book title, after submitting the form, the app will fetch the data from the API, in the meantime, the user will see a spinner loading while the response is ready and then the Book Card component will be rendered and this component is a stateless component and used only to render the book!
+The project starts with a form where the user can search for a book title, after submitting the form, the app will fetch the data from the API, in the meantime, the user will see a spinner loading while the response is ready and then the Book Card component will be rendered and this component is a stateless component and used only to render the book!
 
 ## Installation
 
