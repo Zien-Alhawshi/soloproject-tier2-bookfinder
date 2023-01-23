@@ -1,0 +1,44 @@
+
+.card {
+    padding: 2rem 4rem 3rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+    margin-bottom: 2rem;
+    background-color: white;
+    flex: 40%;
+    margin-right:2rem;
+    
+    .card-container{
+        display:flex;
+        justify-content: space-between;
+        gap:5em;
+        .img-container{
+            width:100px;
+            height:100px;
+        }
+        .card--title {
+            margin-bottom: 0.5rem;
+            font-size: 2rem;
+          }
+          
+          .card--image {
+            margin: 0 auto;
+            display: block
+          }
+          .info{
+            text-decoration: none;
+            background-color: rgba(21, 207, 137,0.75);
+            color:white;
+            padding:10px 20px;
+            border-radius: 3px;
+            &:hover {
+                background-color: rgba(21, 207, 137,0.95);
+              }
+          }
+    }
+    
+
+    
+    
+  }
+  
