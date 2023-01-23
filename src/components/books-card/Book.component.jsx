@@ -2,6 +2,7 @@
 import React from "react"
 import "./Book.styles.scss"
 export default function Book({book}){
+    console.log(book)
     return(
         <>
             {book.imageLinks?

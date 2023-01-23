@@ -4,7 +4,7 @@ function App() {
 
   return (
     <div className="container">
-        <h1 className="title">Book Finder Search</h1>
+        <h1 className="title">Book Finder</h1>
         <SearchBooks />
 
     </div>

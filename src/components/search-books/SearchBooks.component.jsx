@@ -12,13 +12,10 @@ export default function SearchBooks(){
             const res = await fetch(url);
             const data  = await res.json();
              setBooks(data.items);
-            console.log(Books)
-
         }catch(err){
             console.error(err);
         }
     }
-    
     return(
         <>
         <form className="form" onSubmit={searchBooks}>
@@ -29,7 +26,7 @@ export default function SearchBooks(){
             <button className="button" type="submit">Search</button>
             </form>
             <div className="card-list">
-                {Books.map(book=> <Book className="flex-item" book={book['volumeInfo']} />)}
+                {Books.map(book=> <Book className="flex-item" key={book['volumeInfo'].industryIdentifiers[0].identifier} book={book['volumeInfo']} />)}
       
             </div>  
         </>
