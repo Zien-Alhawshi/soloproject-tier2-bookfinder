@@ -5,7 +5,7 @@ export default function Book({book}){
     console.log(book)
     return(
         <>
-            {book.imageLinks?
+            {(book.imageLinks) && (book.title) ?
                 <div className="card" >
                     <div className="card-container">
                         <div>
