@@ -1,6 +1,6 @@
 # Book Finder App
 
-![Screenshot](src\assets\BookFinder-overview.jpg)
+<img src="./src/assets/BookFinder-overview.jpg"/>
 
 This project is a book finder app which fetches [Google Books API](https://developers.google.com/books/) data and displays the books on the website with additional information (Thumbnail, Title, Author,.. etc.), in addition to a link for further details if the user would like to know more about the book.
 
